@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+        <ves translate="label">
+            <label>VnEcoms</label>
+            <sort_order>400</sort_order>
+        </ves>
+    </tabs>
+    
+    <sections>
+        <pdfpro translate="label" module="pdfpro">
+            <label>PDF Pro</label>
+            <tab>ves</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>101</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>                
+                <config>
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>						
+						<enabled>
+                            <label>Enable Module</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <key>
+                        	<label>API Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </key>
+                    </fields>
+                </config>
+			</groups>
+        </pdfpro>
+    </sections>
+</config>
