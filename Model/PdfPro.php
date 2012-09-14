@@ -7,8 +7,8 @@
  */
 class PdfPro
 {
-    const PDF_PRO_WSDL			= 'http://hungvt-pc/magento-1.7.0.2/pdf/api/soap?wsdl';
-    const PDF_PRO_XMLRPC		= 'http://hungvt-pc/magento-1.7.0.2/pdf/api/xmlrpc/';
+    const PDF_PRO_WSDL			= 'http://www.easypdfinvoice.com/api/soap?wsdl';
+    const PDF_PRO_XMLRPC		= 'http://www.easypdfinvoice.com/api/xmlrpc/';
     const PDF_PRO_API_USERNAME	= 'test';
     const PDF_PRO_API_PASSWORD	= 'admin123';
     
